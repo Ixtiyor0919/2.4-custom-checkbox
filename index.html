@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffeerosters-checkbox</title>
+    <link rel="stylesheet" href="./css/normalize.css.map">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header container">
+        <a href="#" class="header-logo">
+            <img src="./images/header-logo-img.png" alt="logo">
+        </a>
+        <ul class="header-list">
+            <li class="list-item">
+                <a href="#" class="list-link">HOME</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">ABOUT US</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">Create your plan</a>
+            </li>
+        </ul>
+    </header>
+    <main class="main">
+        <section class="hero container">
+            <h2 class="hero-title">Create a plan</h2>
+            <p class="hero-description">
+                Build a subscription plan that best fits your needs. We offer an assortment of the best artisan 
+                coffees from around the globe delivered fresh to your door.
+            </p>
+        </section>
+        <section class="services container">
+            <hr class="services-line">
+            <hr class="services-line-second">
+            <div class="services-wrapper">
+                <div class="services-card">
+                    <span class="services-card-text">01</span>
+                    <h3 class="services-card-title">Pick your coffee</h3>
+                    <p class="services-card-description">
+                        Select from our evolving range of artisan coffees. Our beans are ethically sourced
+                        and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+                    </p>
+                </div>
+                <div class="services-card">
+                    <span class="services-card-text">02</span>
+                    <h3 class="services-card-title">Choose the frequency</h3>
+                    <p class="services-card-description">
+                        Customize your order frequency, quantity, even your roast style and grind type. 
+                        Pause, skip or cancel your subscription with no commitment through our online portal.
+                    </p>
+                </div>
+                <div class="services-card">
+                    <span class="services-card-text">03</span>
+                    <h3 class="services-card-title">Receive and enjoy!</h3>
+                    <p class="services-card-description">
+                        We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
+                        world-class coffees curated to provide a distinct tasting experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <form action="index.html" method="get" class="form-wrapper container">
+            <section class="column-container">
+                <h2 class="checkbox-title">How do you drink your coffee?</h2>
+                <input value="capsule" type="radio" name="preferences" id="checkbox-capsule" class="checkbox-input">
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Capsule</h3>
+                    <p class="text">
+                        Compatible with Nespresso systems and similar brewers
+                    </p>
+                </div>
+                <input value="filter" type="radio" name="preferences" id="checkbox-filter" class="checkbox-input" checked>
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Filter</h3>
+                    <p class="text">
+                        For pour over or drip methods like Aeropress, Chemex, and V60
+                    </p>
+                </div>
+                <input value="espresso" type="radio" name="preferences" id="checkbox-espresso" class="checkbox-input">
+                <div class="checkbox-check">
+                    <h3 class="title">Espresso</h3>
+                    <p class="text">
+                        Dense and finely ground beans for an intense, flavorful experience
+                    </p>
+                </div>
+            </section>
+            <section class="column-container">
+                <h2 class="checkbox-title">What type of coffee?</h2>
+                <input value="single_origin" type="radio" name="type" id="checkbox-single-origin" class="checkbox-input">
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Single Origin</h3>
+                    <p class="text">
+                        Distinct, high quality coffee from a specific family-owned farm
+                    </p>
+                </div>
+                <input value="decaf" type="radio" name="type" id="checkbox-decaf" class="checkbox-input" checked>
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Decaf</h3>
+                    <p class="text">
+                        Just like regular coffee, except the caffeine has been removed
+                    </p>
+                </div>
+                <input value="blended" type="radio" name="type" id="checkbox-blended" class="checkbox-input">
+                <div class="checkbox-check">
+                    <h3 class="title">Blended</h3>
+                    <p class="text">
+                        Combination of two or three dark roasted beans of organic coffees
+                    </p>
+                </div>
+            </section>
+            <section class="column-container">
+                <h2 class="checkbox-title">How much would you like?</h2>
+                <input value="250g" type="radio" name="quantity" id="checkbox-250g" class="checkbox-input" checked>
+                <div class="checkbox-check small-check">
+                    <h3 class="title">250g</h3>
+                    <p class="text">
+                        Perfect for the solo drinker. Yields about 12 delicious cups.
+                    </p>
+                </div>
+                <input value="500g" type="radio" name="quantity" id="checkbox-500g" class="checkbox-input">
+                <div class="checkbox-check small-check">
+                    <h3 class="title">500g</h3>
+                    <p class="text">
+                        Perfect option for a couple. Yields about 40 delectable cups.
+                    </p>
+                </div>
+                <input value="1000g" type="radio" name="quantity" id="checkbox-100g" class="checkbox-input">
+                <div class="checkbox-check">
+                    <h3 class="title">1000g</h3>
+                    <p class="text">
+                        Perfect for offices and events. Yields about 90 delightful cups.
+                    </p>
+                </div>
+            </section>
+            <section class="column-container">
+                <h2 class="checkbox-title">Want us to grind them?</h2>
+                <input value="wholebean" type="radio" name="grind" id="checkbox-wholebean" class="checkbox-input">
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Wholebean</h3>
+                    <p class="text">
+                        Best choice if you cherish the full sensory experience
+                    </p>
+                </div>
+                <input value="filter" type="radio" name="grind" id="checkbox-filter-2" class="checkbox-input">
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Filter</h3>
+                    <p class="text">
+                        For drip or pour-over coffee methods such as V60 or Aeropress
+                    </p>
+                </div>
+                <input value="cafetiére" type="radio" name="grind" id="checkbox-cafetiére" class="checkbox-input" checked>
+                <div class="checkbox-check">
+                    <h3 class="title">Cafetiére</h3>
+                    <p class="text">
+                        Course ground beans specially suited for french press coffee
+                    </p>
+                </div>
+            </section>
+            <section class="column-container">
+                <h2 class="checkbox-title">How often should we deliver?</h2>
+                <input value="every_week" type="radio" name="deliver" id="checkbox-every-week" class="checkbox-input" checked>
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Every week</h3>
+                    <p class="text">
+                        $7.20 per shipment. Includes free first-class shipping.
+                    </p>
+                </div>
+                <input value="every_2_weeks" type="radio" name="deliver" id="checkbox-every-2-weeks" class="checkbox-input">
+                <div class="checkbox-check small-check">
+                    <h3 class="title">Every 2 weeks</h3>
+                    <p class="text">
+                        $9.60 per shipment. Includes free priority shipping.
+                    </p>
+                </div>
+                <input value="every_month" type="radio" name="deliver" id="checkbox-every-month" class="checkbox-input">
+                <div class="checkbox-check">
+                    <h3 class="title">Every month</h3>
+                    <p class="text">
+                        $12.00 per shipment. Includes free priority shipping.
+                    </p>
+                </div>
+            </section>
+            <div class="column-bottom-wrapper">
+                <h5 class="title">Order Summary</h5>
+                <p class="text">
+                    <q>
+                        I drink my coffee as <span  class="success">Filter,</span> with a <span  class="success">Decaf</span> type of bean. 
+                        <span  class="success">250g</span> ground ala <span  class="success">Cafetiére,</span> 
+                        sent to me <span  class="success">Every Week.</span>
+                    </q>
+                </p>
+            </div>
+            <button class="form-btn" type="submit">Create my plan!</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="pavigation-footer container">
+            <div class="footer-left-part">
+                <a href="#" class="footer-logo-link">
+                    <img src="./images/logo-img.png" alt="footer-logo-img">
+                </a>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">HOME</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">ABOUT US</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">Create your plan</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="socials">
+                <a href="link.html" class="socials-icon-link">
+                    <img src="./images/facebook-icon.png" alt="facebook-icon">
+                </a>
+                <a href="link.html" class="socials-icon-link">
+                    <img src="./images/twitter-icon.png" alt="twitter-icon">
+                </a>
+                <a href="link.html" class="socials-icon-link">
+                    <img src="./images/instagram-icon.png" alt="instagram-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
